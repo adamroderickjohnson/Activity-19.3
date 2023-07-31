@@ -6,7 +6,7 @@ $(".toggle").click(function(){
 $(".searchButton").on("click", function(){
     $(".searchButton").toggleClass('active');
         if($(".searchButton").hasClass("active")){
-            $("searchBar").css('height', '100vh');
+            $(".searchBar").css('height', '100vh');
             $('#searchForm').css('opacity','1');
             $('.searchIcon').removeClass('fa-search').addClass('fa-times');
         }else{
